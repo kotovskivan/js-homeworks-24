@@ -37,7 +37,7 @@ class SkillsManager {
 const skillsManager = new SkillsManager();
 console.log(skillsManager.addSkill('JavaScript'));
 console.log(skillsManager.addSkill('CSS'));
-console.log(skillsManager.addSkill('A')); // поверне null
+console.log(skillsManager.addSkill('A'));
 console.log(skillsManager.getAllSkills());
 
 function DateCalculator(initialDate) {
